@@ -1,0 +1,4 @@
+rootProject.name = 'jfx11-demo'
+
+include "gui"
+include "logic"

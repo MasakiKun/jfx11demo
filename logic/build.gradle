@@ -1,0 +1,18 @@
+apply plugin: "java"
+
+group "kr.ayukawa"
+
+sourceCompatibility = "11"
+targetCompatibility = "11"
+
+[compileJava, compileTestJava]*.options*.encoding = "UTF-8"
+
+def versions = [
+]
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+}
